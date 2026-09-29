@@ -1,8 +1,8 @@
-from app.services.ocr_service import extract_text
-from app.services.text_cleaner import clean_text
-from app.services.medicine_extractor import extract_medicine_names
+from backend.app.services.ocr_service import extract_text
+from backend.app.services.text_cleaner import clean_text
+from backend.app.services.medicine_extractor import extract_medicine_names
 from itertools import combinations
-from app.services.fda_service import check_drug_interaction
+from backend.app.services.fda_service import check_drug_interaction
 import os
 
 

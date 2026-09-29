@@ -1,8 +1,9 @@
+from backend.app.api.routes import analysis
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
 
-from app.api.routes import health, analysis
+from backend.app.api.routes import health
 
 app = FastAPI(
     title="Medical Interaction API",

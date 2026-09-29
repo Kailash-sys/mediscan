@@ -1,8 +1,8 @@
 import json
 import re
 from groq import Groq
-from app.services.app_config import GROQ_API_KEY
-from app.services.text_cleaner import clean_text
+from backend.app.services.app_config import GROQ_API_KEY
+from backend.app.services.text_cleaner import clean_text
 
 client = Groq(api_key=GROQ_API_KEY)
 
