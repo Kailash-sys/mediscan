@@ -1,5 +1,5 @@
 import re
-from backend.app.services.ocr_service import extract_text
+from app.services.ocr_service import extract_text
 
 # Words that are usually not medicine names
 REMOVE_WORDS = {
